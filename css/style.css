@@ -1,0 +1,71 @@
+html, body {
+  background: white;
+  color: black;
+  font: 14px/120% Helvetica,Arial,sans-serif;
+  height: 100%;
+  margin: 0;
+}
+body {
+  margin: 20px 20px 20px 320px;
+}
+aside {
+  background: #e8e8e8;
+  overflow: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 300px;
+}
+nav {
+  display: block;
+  display: flexbox;
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+}
+nav button {
+  display: block;
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  padding: 0.5em;
+}
+p label {
+  display: block;
+  font-weight: bold;
+}
+p input[type=text], p input[type=email], p input[type=phone] {
+  border: 1px solid #ccc;
+  font-size: 16px;
+  padding: 0.5em;
+  width: 60%;
+}
+p input[type="submit"] {
+  background: #999;
+  border: 0;
+  font-size: 16px;
+  padding: 0.5em;
+}
+p span.error {
+  color: red;
+  margin-left: 0.5em;
+}
+#contacts ol {
+  margin: 0;
+  padding: 0;
+}
+#contacts li {
+  border-bottom: 1px solid #eee;
+  list-type: none;
+  font-size: 16px;
+  margin: 0;
+  padding: 10px;
+}
+#contacts li:hover {
+  background: #e0e0e0;
+  cursor: pointer;
+}
+#contacts li.selected {
+  font-weight: bold;
+}
